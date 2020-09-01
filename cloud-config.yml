@@ -1,0 +1,11 @@
+#cloud-config
+rancher:
+  docker:
+    tls: true
+  network:
+    dns:
+      nameservers:
+      - 8.8.8.8
+      - 8.8.4.4
+ssh_authorized_keys:
+- ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/VVSaBCPlPskd7AMXr3XSrTmFblvvFdNGA/CL7M5xMasUqs4xURpntpVpD7qtv5btm8OASkIm7+QUyfGK4MbXMOhch3smipNFwcvy3cCYudfib8OpK5qN5ldtAD7b9RuQm9/l7GcOvDR3BEVTdMr/LeqTA9AcRk3T1Hwi3HdYSymu2ycnErZQ/Ojht4ATKfD/uSoK0wHuLszxAKKkLfH6b0xeSn4yyZrrrptiGBfyzEce2KirDqJLEwNwEXDlnTuUx4634XRCRhab6oETYcQPsr8LlUtMKUHDNyLEr3cFVhQY8TGg9jIyV65/ZDl1OErUILzxgr+MUacAfU96ovozvTXfXZVjQUZaXC/ogieM4iRidDTU4I1IipbkAqoMuZulilvRGOb+fjRJGVsWh+P9NK8oq8ZT6kv6Jj/lFGXcVje8R2vuAGXx2g6SIXlwggJBssFBwaJYGGAqLO/pCJUbEYnFypyHwNoDq6b6QT0m2t1zR44V0UiryJcqlVtGq1U= rancheros
